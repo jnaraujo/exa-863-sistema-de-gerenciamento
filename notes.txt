@@ -1,0 +1,46 @@
+Registro de [Client]s:
+	- Armazenar dados dos [Client]s
+	- [Client]
+		> ID
+		> Name
+		> Address
+		> Phone Number
+		> etc
+		
+Gerenciamento de [Work Order]s:
+	-	Criar e Gerenciar [Work Order]s
+		- Montagem/Instalação: RAM (R$ 20 por peça), placa mãe (R$ 100), fonte (R$ 30), placa de vídeo (R$100), HD/SSD (R$30), outros (descrição) (valor a definir);
+		- Formatação e instalação de sistemas: Sistema operacional (R$ 50) e Programas (R$10);
+		- Limpeza: limpeza (R$70)
+	- [Work Order]:
+		> Work Order ID
+		> ClientID
+		> Status: em andamento, finalizado ou cancelado
+		> [Service Type]
+			> [Computer Component]: RAM, Placa Mãe etc
+			> [Repair]: Formatação, Limpeza etc
+			> etc
+
+Agenda de atendimento:
+	- Serviços devem ser realizados em ordem de chegada
+	- Tecnico deve mudar o status da [Work Order]
+	- Ao finalizar, deve constar a descrição do serviço e o valor total
+	- Sistema deve conter as ordens em aberto do dia
+	- Técnico só pode ter uma ordem em aberto por vez
+	
+Gerenciamento de peças e estoque:
+	- Deve ser possível verificar quantas [Computer Component] estão no estoque
+	- Adicionar mais [Computer Component] ao estoque
+	- As [Computer Component] devem ser removidas do estoque assim que uma [Work Order] for finalizada.
+	- Controle de custos
+	- !! Falta mais informação !!
+	
+Faturamento e pagamento:
+	- Técnico deve gerar fatura assim que a [Work Order] for finalizada
+	- Aceitar [Payment] de várias formas: Cartão de Crédito, Débito etc.
+	
+Relatórios:
+	- O sistema deve gerar relatórios sobre desempenho do serviço:
+		- Tempo Médio de Esperar
+		- Custos das peças
+		- Estoque
