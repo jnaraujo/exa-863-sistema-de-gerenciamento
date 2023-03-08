@@ -5,10 +5,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CustomerTest {
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/main
         @Test
         void testCustomer() {
             Customer customer = new Customer(
