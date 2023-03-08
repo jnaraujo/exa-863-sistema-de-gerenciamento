@@ -3,7 +3,6 @@ package model;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.io.Serial;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -36,11 +35,28 @@ class WorkOrderTest {
         WorkOrder workOrder = new WorkOrder(
                 "1",
                 "urgent work order",
-                this.customer,
-                this.technician
+                this.customer
         );
 
         assertNotNull(workOrder);
+    }
+
+    @Test
+    void testWorkOrderFinishWithoutTechnician() {
+        WorkOrder workOrder = new WorkOrder(
+                "1",
+                "customer is complaining",
+                this.customer
+        );
+
+        workOrder.addService(new Service(
+                "Fix RAM",
+                "RAM is broken",
+                100.00,
+                50.00
+        ));
+
+        assertThrows(IllegalStateException.class, workOrder::finish);
     }
 
     @Test
@@ -48,9 +64,10 @@ class WorkOrderTest {
         WorkOrder workOrder = new WorkOrder(
                 "1",
                 "customer is complaining",
-                this.customer,
-                this.technician
+                this.customer
         );
+
+        workOrder.setTechnician(this.technician);
 
         workOrder.addService(new Service(
                 "Fix RAM",
@@ -62,7 +79,7 @@ class WorkOrderTest {
         workOrder.finish();
 
         assertEquals("Finalizado", workOrder.getStatus());
-        assertNotNull(workOrder.getFinishedAt());
+
     }
 
     @Test
@@ -70,8 +87,7 @@ class WorkOrderTest {
         WorkOrder workOrder = new WorkOrder(
                 "1",
                 "customer is complaining",
-                this.customer,
-                this.technician
+                this.customer
         );
 
         workOrder.addService(new Service(

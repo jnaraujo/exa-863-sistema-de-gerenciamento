@@ -6,7 +6,7 @@ import java.util.Date;
 public class WorkOrder {
     private final String id;
     private Customer customer;
-    private Technician technician;
+    private Technician technician = null;
 
     private String status = "Em andamento";
     private String description;
@@ -17,13 +17,12 @@ public class WorkOrder {
     public WorkOrder(
         String id,
         String description,
-        Customer customer,
-        Technician technician
+        Customer customer
     ) {
         this.id = id;
         this.customer = customer;
-        this.technician = technician;
         this.description = description;
+
         this.createdAt = new Date();
     }
 
@@ -85,7 +84,10 @@ public class WorkOrder {
         return finishedAt;
     }
 
-    public void finish() {
+    public void finish() throws IllegalStateException{
+        if(this.technician == null)
+            throw new IllegalStateException("Não é possível finalizar uma ordem de serviço sem um técnico");
+
         this.status = "Finalizado";
         this.finishedAt = new Date();
     }
@@ -105,10 +107,6 @@ public class WorkOrder {
 
     public boolean isOngoing() {
         return this.status.equals("Em andamento");
-    }
-
-    public boolean isPending() {
-        return this.status.equals("Pendente");
     }
 
 }
