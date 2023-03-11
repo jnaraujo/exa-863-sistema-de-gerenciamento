@@ -1,7 +1,6 @@
-package dao.customer;
+package main.dao.customer;
 
-import dao.Dao;
-import model.Customer;
+import main.model.Customer;
 
 import java.util.ArrayList;
 import java.util.HashMap;

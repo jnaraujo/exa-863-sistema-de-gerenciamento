@@ -1,6 +1,6 @@
-package dao.workorder;
+package main.dao.workorder;
 
-import model.WorkOrder;
+import main.model.WorkOrder;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,7 +1,6 @@
-package dao.technician;
+package main.dao.technician;
 
-import model.Customer;
-import model.Technician;
+import main.model.Technician;
 
 import java.util.ArrayList;
 import java.util.HashMap;

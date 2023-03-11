@@ -1,11 +1,11 @@
-package model;
+package main.model;
 
-public class Technician {
+public class User {
     private final String id;
     private String name;
     private String email;
 
-    public Technician(
+    public User(
         String id,
         String name,
         String email

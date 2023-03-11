@@ -1,5 +1,9 @@
 package model;
 
+import main.model.Customer;
+import main.model.Service;
+import main.model.Technician;
+import main.model.WorkOrder;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

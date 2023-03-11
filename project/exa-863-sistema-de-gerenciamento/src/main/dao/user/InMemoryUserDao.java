@@ -1,6 +1,6 @@
-package dao.user;
+package main.dao.user;
 
-import model.User;
+import main.model.User;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,17 +1,23 @@
-package model;
+package main.model;
 
-public class User {
+public class Customer {
     private final String id;
     private String name;
+    private String address;
+    private String phone;
     private String email;
 
-    public User(
+    public Customer(
         String id,
         String name,
+        String address,
+        String phone,
         String email
     ) {
         this.id = id;
         this.name = name;
+        this.address = address;
+        this.phone = phone;
         this.email = email;
     }
 
@@ -25,6 +31,22 @@ public class User {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     public String getEmail() {
