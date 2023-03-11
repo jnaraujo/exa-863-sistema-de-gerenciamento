@@ -6,4 +6,5 @@ module com.uefs.sistemadegerenciamento {
 
     opens com.uefs.sistemadegerenciamento to javafx.fxml;
     exports com.uefs.sistemadegerenciamento;
+    exports com.uefs.sistemadegerenciamento.controllers;
 }

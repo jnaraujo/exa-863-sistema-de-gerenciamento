@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b15446c8-419a-454f-9ffd-279c4cb62b52" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../exa-863-sistema-de-gerenciamento/sistema-de-gerenciamento/sistema de gerenciamento/src/main/java/com/uefs/sistemadegerenciamento/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../exa-863-sistema-de-gerenciamento/sistema-de-gerenciamento/sistema de gerenciamento/src/main/java/com/uefs/sistemadegerenciamento/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exa-863-sistema-de-gerenciamento/sistema-de-gerenciamento/sistema de gerenciamento/src/main/java/com/uefs/sistemadegerenciamento/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exa-863-sistema-de-gerenciamento/sistema-de-gerenciamento/sistema de gerenciamento/src/main/java/com/uefs/sistemadegerenciamento/controllers/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exa-863-sistema-de-gerenciamento/sistema-de-gerenciamento/sistema de gerenciamento/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../exa-863-sistema-de-gerenciamento/sistema-de-gerenciamento/sistema de gerenciamento/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exa-863-sistema-de-gerenciamento/sistema-de-gerenciamento/sistema de gerenciamento/src/main/resources/com/uefs/sistemadegerenciamento/hello-view.fxml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MhwZcZVhhvPVyvhqyP0o9AbaB5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "/media/jnaraujo/Files/Programming/exa-863-sistema-de-gerenciamento/project/exa-863-sistema-de-gerenciamento/src/main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2624703",
+    "settings.editor.selected.configurable": "preferences.JavaFX",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/dao/technician" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dao.customer" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in exa-863-sistema-de-gerenciamento">
+    <configuration name="All in exa-863-sistema-de-gerenciamento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exa-863-sistema-de-gerenciamento" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exa-863-sistema-de-gerenciamento" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.WorkOrderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkOrderTest.testWorkOrderAddService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exa-863-sistema-de-gerenciamento" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.WorkOrderTest" />
+      <option name="METHOD_NAME" value="testWorkOrderAddService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkOrderTest.testWorkOrderFinish" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exa-863-sistema-de-gerenciamento" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.WorkOrderTest" />
+      <option name="METHOD_NAME" value="testWorkOrderFinish" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkOrderTest.testWorkOrderFinishWithoutTechnician" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exa-863-sistema-de-gerenciamento" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.WorkOrderTest" />
+      <option name="METHOD_NAME" value="testWorkOrderFinishWithoutTechnician" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in exa-863-sistema-de-gerenciamento" />
+        <item itemvalue="JUnit.WorkOrderTest.testWorkOrderFinishWithoutTechnician" />
+        <item itemvalue="JUnit.WorkOrderTest.testWorkOrderFinish" />
+        <item itemvalue="JUnit.WorkOrderTest" />
+        <item itemvalue="JUnit.WorkOrderTest.testWorkOrderAddService" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b15446c8-419a-454f-9ffd-279c4cb62b52" name="Changes" comment="" />
+      <created>1678233180683</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678233180683</updated>
+      <workItem from="1678233182213" duration="732000" />
+      <workItem from="1678233926024" duration="3061000" />
+      <workItem from="1678292204129" duration="3604000" />
+      <workItem from="1678463794897" duration="173000" />
+      <workItem from="1678463984563" duration="1662000" />
+      <workItem from="1678465661086" duration="814000" />
+      <workItem from="1678493942255" duration="3173000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: add Customer model&#10;&#10;Co-authored-by: yasmincsme@gmail.com">
+      <created>1678235580534</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678235580534</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: add Customer model&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;">
+      <created>1678235850312</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678235850312</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;project/exa-863-sistema-de-gerenciamento/src/test/model/CustomerTest.java">
+      <created>1678235986366</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678235986367</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: fix CustomerTest&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;">
+      <created>1678236079076</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678236079076</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: add Technician&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;">
+      <created>1678293601570</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678293601570</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: add WorkOrder&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;">
+      <created>1678294679265</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678294679266</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat(WorkOrder): remove unused isPending&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;">
+      <created>1678295546710</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678295546710</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix: add Dao interface&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;">
+      <created>1678464915093</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678464915093</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix: add CustomerDao&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;">
+      <created>1678464939079</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678464939079</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix: add InMemoryWorkOrderDao&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;">
+      <created>1678464970926</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678464970926</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix: add User entity&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;">
+      <created>1678465381039</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1678465381039</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix: add UserDao&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;">
+      <created>1678465393066</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1678465393066</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix: add TechnicianDao&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;">
+      <created>1678465406969</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678465406969</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: moved files to src.main&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;">
+      <created>1678495591038</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1678495591038</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: add Customer model&#10;&#10;Co-authored-by: yasmincsme@gmail.com" />
+    <MESSAGE value="fix: Customer model&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;" />
+    <MESSAGE value="feat: add Customer model&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;project/exa-863-sistema-de-gerenciamento/src/test/model/CustomerTest.java" />
+    <MESSAGE value="feat: fix CustomerTest&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;" />
+    <MESSAGE value="feat: add Technician&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;" />
+    <MESSAGE value="feat: add Service&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;" />
+    <MESSAGE value="feat: add WorkOrder&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;" />
+    <MESSAGE value="feat(WorkOrder): removed Technician from constructor&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;" />
+    <MESSAGE value="fix: lint error&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;" />
+    <MESSAGE value="feat(WorkOrder): remove unused isPending&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;" />
+    <MESSAGE value="fix: add Dao interface&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;" />
+    <MESSAGE value="fix: add CustomerDao&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;" />
+    <MESSAGE value="fix: add InMemoryWorkOrderDao&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;" />
+    <MESSAGE value="fix: add User entity&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;" />
+    <MESSAGE value="fix: add UserDao&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;" />
+    <MESSAGE value="fix: add TechnicianDao&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;" />
+    <MESSAGE value="feat: moved files to src.main&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: moved files to src.main&#10;&#10;Co-authored-by: yasmin cordeiro &lt;yasmincsme@gmail.com&gt;" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/exa_863_sistema_de_gerenciamento$Main.ic" NAME="Main Coverage Results" MODIFIED="1678292342305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
