@@ -4,9 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BuildingService extends Service{
-    private List<ComputerComponent> usedComponents = new ArrayList<>();
+    private List<ComputerComponent> usedComponents;
     public BuildingService(String name, String description) {
         super(name, description, 0, 0);
+        this.usedComponents = new ArrayList<>();
     }
 
     public List<ComputerComponent> getUsedComponents() {
