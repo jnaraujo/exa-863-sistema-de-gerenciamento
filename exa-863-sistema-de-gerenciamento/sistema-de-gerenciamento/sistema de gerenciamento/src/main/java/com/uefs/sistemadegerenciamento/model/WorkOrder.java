@@ -2,6 +2,7 @@ package com.uefs.sistemadegerenciamento.model;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 public class WorkOrder {
     private final String id;
@@ -10,7 +11,7 @@ public class WorkOrder {
 
     private String status = "Em andamento";
     private String description;
-    private ArrayList<Service> services = new ArrayList<Service>();
+    private List<Service> services = new ArrayList<Service>();
     private Date createdAt;
     private Date finishedAt;
 
@@ -62,7 +63,7 @@ public class WorkOrder {
         this.description = description;
     }
 
-    public ArrayList<Service> getServices() {
+    public List<Service> getServices() {
         return services;
     }
     public void addService(Service service) {
